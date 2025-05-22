@@ -1,0 +1,53 @@
+:root{
+  /* Primary Colors */
+  --black: rgb(32, 32, 32);          /* Darker black for greater contrast */
+  --black-2: rgb(17, 18, 18);        /* Kept original dark background */
+  --blue: rgb(25, 118, 210);         /* Professional blue - replaces yellow */
+  --red: rgb(220, 53, 34);           /* Automotive red accent */
+  --silver: rgb(176, 176, 176);      /* Metallic silver - slightly adjusted */
+  --gray: rgb(204, 204, 204);        /* Kept original */
+  --gray-2: rgb(240, 240, 240);      /* Slightly cooler gray */
+  --gray-x: rgb(186, 186, 186);      /* Kept original */
+  --light-blue: rgba(25, 118, 210, 0.15); /* Light blue instead of green */
+  --gray-xy: rgb(230, 230, 230);     /* Kept original */
+  --gray-3: rgb(128, 128, 128);      /* Kept original */
+  --black-8: rgba(0, 0, 0, 0.8);     /* Kept original */
+  --white-5: rgba(255, 255, 255, 0.5); /* Kept original */
+  --black-5: rgba(0, 0, 0, 0.5);     /* Kept original */
+  --black-3: rgba(0, 0, 0, 0.3);     /* Kept original */
+  --dark-blue: rgb(16, 84, 150);     /* Dark blue instead of green */
+  --white: rgb(255, 255, 255);       /* Kept original */
+  
+  /* Success/Error states */
+  --success: rgb(41, 156, 69);       /* Changed from light green */
+  --error: rgb(220, 53, 34);         /* More automotive red */
+
+  /* All your existing radius and typography variables */
+  --radius-pill: 500px;
+  --radius-circle: 50%;
+  --radius-3: 3px;
+  --radius-5: 5px;
+  --radius-10: 10px;
+
+  --ff-league_spartan: 'League Spartan', sans-serif;
+  --ff-poppins: 'Poppins', sans-serif;
+
+  --fs-1: 4.2rem;
+  --fs-2: 3.2rem;
+  --fs-3: 2.3rem;
+  --fs-4: 1.8rem;
+  --fs-5: 1.5rem;
+  --fs-6: 1.4rem;
+  --fs-7: 1.3rem;
+
+  --fw-500: 500;
+  --fw-600: 600;
+}
+
+.success-message{
+  color: var(--success);
+}
+
+.error-message{
+  color: var(--error);
+}
